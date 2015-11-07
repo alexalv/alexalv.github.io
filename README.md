@@ -1,2 +1,2 @@
 # alexalv.github.io
-An github.io page
+github.io page
