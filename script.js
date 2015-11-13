@@ -4,19 +4,19 @@ alexalvApp.config(function($routeProvider) {
     $routeProvider
         // route for the home page (cv)
         .when('/', {
-            templateUrl : 'pages/cv.html',
+            templateUrl : 'https://htmlpreview.github.io/?https://github.com/alexalv/alexalv.github.io/master/pages/cv.html',
             controller  : 'mainController'
         })
 
         // route for the blog
         .when('/blog', {
-            templateUrl : 'pages/blog.html',
+            templateUrl : 'https://htmlpreview.github.io/?https://github.com/alexalv/alexalv.github.io/master/pages/blog.html',
             controller  : 'blogController'
         })
 
         // route for the contact page
         .when('/contact', {
-            templateUrl : 'pages/contact.html',
+            templateUrl : 'https://htmlpreview.github.io/?https://github.com/alexalv/alexalv.github.io/master/pages/contact.html',
             controller  : 'contactController'
         });
 });
