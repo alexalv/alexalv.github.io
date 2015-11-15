@@ -7,9 +7,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 	<script src="script.js"></script>
+	<link href="css/style.css" rel="stylesheet" />
 </head>
 <body ng-app="alexalvApp">
-
 	<header>
 		<nav class="navbar navbar-default">
 			<div class="container">
@@ -26,9 +26,13 @@
 		</nav>
 	</header>
 
-	<div id="main">
+	<div class="container">
 		<div ng-view></div>
 	</div>
-
+	<footer class="footer">
+		<div class="container">
+			<p>Some of my projects you may find on <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="repologo"/>: <a href="https://github.com/alexalv">alexalv</a> and <a href="https://github.com/alexalv-practice">alexalv-practice</a>, on <img src="https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2015/Sep/09/1315830652-8-bitbucket-avatar.png" class="repologo"/>: <a href="https://bitbucket.org/alexalv">alexalv</a>, on <img src="https://gitlab.com/uploads/project/avatar/13083/gitlab-logo-square.png" class="repologo"/>: <a href="https://gitlab.com/u/alexalv">alexalv</a></p>
+		</div>
+	</footer>
 </body>
 </html>
